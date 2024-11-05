@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #1e1e2f;
+    padding: 1em;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+  }
+  
+  section {
+    padding: 2em;
+  }
+  
+  h2 {
+    color: #4CAF50;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+  }
+  
