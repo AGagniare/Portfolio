@@ -7,21 +7,21 @@
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-  <header>
+  <header class="header">
     <h1>Data Pipeline Project</h1>
   </header>
 
-  <section>
-    <h2>Project Overview</h2>
-    <p>This project involves building a scalable data pipeline using Python and SQL.</p>
+  <section class="section">
+    <h2>Overview</h2>
+    <p>This project demonstrates a scalable data pipeline using Python and SQL. It processes large datasets, cleans data, and loads it into a database.</p>
   </section>
 
-  <section>
+  <section class="section">
     <h2>Visualization</h2>
-    <div id="chart"></div>
+    <div id="chart" style="height: 300px;"></div>
   </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist@2.3.0"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script>
     Plotly.newPlot('chart', [{
       x: [1, 2, 3, 4],
