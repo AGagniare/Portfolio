@@ -1,54 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Data Engineering Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Data Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>Your Name</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <h1>John Doe</h1>
+        <div class="subtitle">Data Engineer</div>
+    </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I'm a data engineering student specializing in data processing, pipelines, and visualization.</p>
-  </section>
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>I am a passionate Data Engineer with expertise in building scalable data pipelines and implementing efficient data processing systems. My focus is on transforming complex data challenges into actionable insights.</p>
+        </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Python</li>
-      <li>SQL</li>
-      <li>ETL Tools</li>
-      <li>Data Visualization</li>
-      <li>Machine Learning Basics</li>
-    </ul>
-  </section>
+        <section>
+            <h2>Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Retail Data Pipeline</h3>
+                    <p>Developed an ETL pipeline processing 1M+ daily transactions, reducing processing time by 40%.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Apache Airflow</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Customer Analytics Platform</h3>
+                    <p>Built a real-time analytics platform tracking customer behavior across multiple channels.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Kafka</span>
+                        <span class="skill-tag">Spark</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project 1: Data Pipeline</h3>
-      <p>Description of a data pipeline project with tools used, challenges, and outcomes.</p>
-      <button onclick="openProject('projects/project1.html')">View Project</button>
+        <section>
+            <h2>Skills</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Data Processing</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Spark</span>
+                        <span class="skill-tag">Hadoop</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Data Storage</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">S3</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Airflow</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <div class="card">
+                <h3>Senior Data Engineer</h3>
+                <p>ABC Technology • 2020 - Present</p>
+                <p>Lead data engineer responsible for designing and implementing data pipelines, optimizing data workflows, and mentoring junior engineers.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="card">
+                <h3>Master of Science in Data Engineering</h3>
+                <p>University of Technology • 2018-2020</p>
+                <p>GPA: 3.8/4.0</p>
+            </div>
+        </section>
+
+        <div class="contact-info">
+            <h2>Contact</h2>
+            <p>Email: john.doe@email.com</p>
+            <p>Location: San Francisco, CA</p>
+        </div>
     </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your-email@example.com</p>
-  </section>
-
-  <script src="main.js"></script>
 </body>
 </html>
