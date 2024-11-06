@@ -13,11 +13,15 @@ body {
   line-height: 1.6;
 }
 
+/* Header Styling */
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: sticky;
   top: 0;
   background: #0a0a23;
-  padding: 1em;
+  padding: 1em 2em;
   color: #ffffff;
   z-index: 1000;
 }
@@ -25,12 +29,14 @@ body {
 .logo {
   font-size: 1.5em;
   font-weight: bold;
+  margin-right: 2em; /* Add space between the logo and nav links */
 }
 
 .nav-links {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  gap: 1.5em; /* Additional space between nav links */
 }
 
 .nav-links a {
@@ -44,6 +50,7 @@ body {
   color: #4CAF50;
 }
 
+/* Section Styling */
 .section {
   padding: 4em 2em;
   max-width: 1000px;
@@ -60,24 +67,39 @@ body {
   }
 }
 
-.skills-grid, .project, .experience-item {
-  margin-bottom: 2em;
-}
-
+/* Skills Grid Styling */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1em;
 }
 
-.skill, .project, .experience-item {
+.skill {
+  padding: 1.5em;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+}
+
+/* Project and Experience Styling */
+.project, .experience-item {
   background: #fff;
   border-radius: 8px;
   padding: 1.5em;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
 }
 
-.skill:hover, .project:hover, .experience-item:hover {
+.project:hover, .experience-item:hover {
   transform: translateY(-5px);
   transition: transform 0.3s ease;
 }
@@ -86,6 +108,7 @@ body {
   color: #4CAF50;
 }
 
+/* Link Styling */
 a {
   color: #1e88e5;
   text-decoration: none;
@@ -95,7 +118,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Responsive */
+/* Responsive Styling */
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
